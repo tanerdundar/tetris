@@ -1,0 +1,63 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+.bottle {
+  padding: 7vw 3vw 1vw 3vw;
+  background-color: rgba(0, 255, 255, 0.587);
+}
+.head {
+  width: 21vw;
+  height: 3vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 7vw;
+}
+.head-left,
+.head-right {
+  height: 3vw;
+  width: 1vw;
+  background-color: black;
+}
+.head-left {
+  margin-left: 6vw;
+}
+.top-of-bottle {
+  width: 21vw;
+}
+.top-of-bottle,
+.left,
+.middle,
+.right {
+  height: 1vw;
+}
+.left,
+.right {
+  background-color: black;
+}
+.flow {
+  padding: 0.4vw;
+  background-color: orange;
+  border: 1vw solid black;
+  border-top: none;
+}
+.top-of-bottle,
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.tile {
+  width: 2vw;
+  height: 2vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+.inner {
+  width: 1.5vw;
+  height: 1.5vw;
+  background-color: white;
+  border-radius: 0px;
+}
